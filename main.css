@@ -1,0 +1,80 @@
+.nav-color{
+    background: rgb(78,143,244);
+    background: linear-gradient(90deg, rgba(78,143,244,1) 1%, rgba(105,0,199,1) 100%);
+    font-size: 1.25rem;
+
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: black;
+  }
+  
+.main-gradient{
+    background: rgb(193,1,8);
+    background: linear-gradient(90deg, rgba(193,1,8,1) 0%, rgba(123,0,199,1) 100%);
+}
+body {
+    padding-top: 70px;
+}
+
+
+h1.display-1 {
+    font-weight: bold !important;
+  }
+    
+
+.custom-color-text {
+    color: darkorange; /* Replace #yourCustomColor with your desired color code or name */
+}
+   
+
+.card-title a {
+    color: black; 
+    text-decoration: none; 
+  }
+  
+.card-title a:hover {
+    text-decoration: underline;
+}
+
+button.btn-custom{
+    background: rgb(193,1,127);
+    background: linear-gradient(90deg, rgba(193,1,127,1) 0%, rgba(123,0,199,1) 100%);
+    color: white;
+}
+
+
+.custom {
+    text-decoration: none;
+  }
+  
+.start{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.bi-envelope-at-fill .bi-whatsapp .bi-telephone-outbound-fill .bi-geo-alt{
+  color: #26a0da;
+}
+
